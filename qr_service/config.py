@@ -18,6 +18,8 @@ SOUNDS_GLOBAL = {
     "service_error": AUDIO_DIR / "error.wav",
     "service_success": AUDIO_DIR / "success.wav",
     "service_command_error": AUDIO_DIR / "service_command_error.wav",
+    "connection_error": AUDIO_DIR / "connection_error.wav",
+    "connection_success": AUDIO_DIR / "connection_success.wav"
 }
 
 # ==== MODE-SPECIFIC SOUNDS ====

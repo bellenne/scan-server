@@ -1,0 +1,23 @@
+{
+  "scanner": {
+    "use_vid_pid": true,
+    "vid": "0x1EAB",
+    "pid": "0x0003",
+
+    "fallback_search": true,
+    "fallback_keywords": [
+      "newland",
+      "cdc",
+      "serial",
+      "usb"
+    ]
+  },
+
+  "audio": {
+    "enabled": true
+  },
+
+  "debug": {
+    "list_ports_on_start": false
+  }
+}

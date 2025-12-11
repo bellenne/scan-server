@@ -4,8 +4,8 @@ from qr_service.config import SCANNER_VID, SCANNER_PID, BAUDRATE
 
 def main():
     app = QRServiceApp(
-        vid=SCANNER_VID,
-        pid=SCANNER_PID,
+        default_vid=SCANNER_VID,
+        default_pid=SCANNER_PID,
         baudrate=BAUDRATE,
     )
     app.run()
